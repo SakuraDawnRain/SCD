@@ -60,7 +60,8 @@ while( health>0 and day>0 and money>0 and work>0 ):
             print("能力提升")
         else:
             print("失败")
-
+    else:
+        health = health+1 if health<9 else health
 
     input("开启下一天吧")
     day = day-1
