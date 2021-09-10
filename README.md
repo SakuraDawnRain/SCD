@@ -1,6 +1,6 @@
 # SCD
 
->**猝死**（sudden cardiac death，简称SCD）指突然的死亡，其定义是“非因[自杀](https://zh.wikipedia.org/wiki/自殺)、他杀或事故而发病、24小时内意外出现的内因性死亡”[1](https://zh.wikipedia.org/wiki/猝死#cite_note-圖解循環系統-1)。一个人由于过度兴奋或过度疲劳而导致的突然死亡。例如当一个人连续工作或沉迷于游戏长达整天，便可能有猝死的风险。
+>**猝死**（sudden cardiac death，简称SCD）指突然的死亡，其定义是“非因[自杀](https://zh.wikipedia.org/wiki/自殺)、他杀或事故而发病、24小时内意外出现的内因性死亡”\[1\](https://zh.wikipedia.org/wiki/猝死#cite_note-圖解循環系統-1)。一个人由于过度兴奋或过度疲劳而导致的突然死亡。例如当一个人连续工作或沉迷于游戏长达整天，便可能有猝死的风险。
 
 本项目划制作与猝死相关的模拟游戏。
 SCD系列为回合制策略游戏。主要以卡牌的形式呈现，配合战棋等元素。
