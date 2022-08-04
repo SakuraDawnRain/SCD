@@ -1,0 +1,10 @@
+{
+    "Standard" : {
+        "fund" : 10000,
+        "week" : 8
+    },
+    "Hard" : {
+        "fund" : 100000,
+        "week" : 4
+    }
+}

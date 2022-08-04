@@ -43,3 +43,27 @@ work -l -o 摸鱼到下班
 study [attitude option] [time option]
 
 [attitude option]
+
+
+## 事件
+
+### 类型
+
+1 编码 coding
+
+2 汇报 presentation
+
+3 学习 learning
+
+4 放松 relaxation
+
+5 其他 others
+
+
+## 心情
+
+心情可取值范围 0-5
+
+心情越高 学习和工作成功概率越高
+
+当心情=0时 无法学习工作

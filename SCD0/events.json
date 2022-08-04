@@ -1,0 +1,38 @@
+{
+    "RegularWork" : {
+        "name" : "例行工作",
+        "type" : 1,
+        "cost" : 2,
+        "description" : "每周常规工作",
+        "necessary" : true,
+        "probabilty" : 1,
+        "difficulty" : 0.2
+    },
+    "ExtraWork" : {
+        "name" : "附加工作",
+        "type" : 1,
+        "cost" : 2,
+        "description" : "你的老板给了你一项额外工作",
+        "necessary" : true,
+        "probabilty" : 0.1,
+        "difficulty" : -1
+    },
+    "RegularMeeting" : {
+        "name" : "例行会议",
+        "type" : 2,
+        "cost" : 1,
+        "description" : "每周例行会议",
+        "necessary" : true,
+        "probabilty" : 1,
+        "difficulty" : 0
+    },
+    "RaiseNew" : {
+        "name" : "培养新人",
+        "type" : 5,
+        "cost" : 1,
+        "description" : "老板安排你带新人",
+        "necessary" : true,
+        "probabilty" : 0.1,
+        "difficulty" : -1
+    }
+}
