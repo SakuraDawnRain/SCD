@@ -1,69 +1,53 @@
 # SCD0 代码之息
 
+python SCD0.py
+
 ## 指令表
 
-### 参数类
+pass   跳过本次行动
 
-#### 显示帮助
+ext    查看插件说明
 
-help
+help   显示帮助
 
-### 行动类
+train  训练模型 需要消耗行动点
 
-#### 工作 work
+find (+资源地址)   查找问题解决方案 需要消耗行动点
 
-###### 规则
+## 结构
 
-work [attitude option] [time option]
+理想结构如下
 
-[attitude option]
+SCD0
 
--l lazy 摸鱼偷懒
+|-- GameSys 游戏系统 负责计算
 
--s serious 认真工作
+|   |-- kernel.py 游戏内核入口
 
-[time option]
+|   |-- extension.py 
 
--o on time 准时跑路
+|   |-- state.py
 
--n night 熬夜
+|-- UI 游戏界面 负责交互
 
--w whole night 通宵
+|   |-- UI_cmd.py
 
-###### 实例
+|-- Resources 游戏资源 支持自定义导入
 
-work -s -n 认真工作至通宵
+|-- SCD0.py 游戏主程序
 
-work -l -o 摸鱼到下班
+2023/2/13 目前代码比较混乱 等初版完成游戏性测试后需要重构
 
-#### 学习 study
+## 行动与健康设计
 
-###### 规则
+部分行为会消耗行动点 后面考虑换一个计算机/生命科学相关的名词
 
-study [attitude option] [time option]
+2次行动(move) 1次额外行动(overmove)
 
-[attitude option]
+额外行动会扣除健康 暂定是心肺和神经随机一个系统-1
 
+连续熬夜考虑加大惩罚
 
-## 事件
+状态中的健康=心肺+神经 但是这两个系统只要有一个降到0即猝死 这算是一周目の坑
 
-### 类型
-
-1 编码 coding
-
-2 汇报 presentation
-
-3 学习 learning
-
-4 放松 relaxation
-
-5 其他 others
-
-
-## 心情
-
-心情可取值范围 0-5
-
-心情越高 学习和工作成功概率越高
-
-当心情=0时 无法学习工作
+## 插件

@@ -1,4 +1,4 @@
-from GameSys.Kernel import Game
+from GameSys.kernel import Game
 import UI
 import os
 
@@ -21,7 +21,7 @@ pass   跳过本次行动
 ext    查看插件说明
 help   显示帮助
 train  训练模型 需要消耗行动点
-find( +资源地址)   查找问题解决方案 需要消耗行动点
+find (+资源地址)   查找问题解决方案 需要消耗行动点
 """
 
 game = Game()
