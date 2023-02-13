@@ -1,0 +1,10 @@
+{
+    "CodeMaunal" : [
+        { "name" : "代码手册" },
+        { "description" : "来写代码吧"}
+    ],
+    "SmartBand" : [
+        { "name" : "健康手环" },
+        { "description" : "能够大致反应健康状况"}
+    ]
+}
