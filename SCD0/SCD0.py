@@ -1,6 +1,10 @@
-from GameSys.kernel import Game
+#from GameSys.kernel import Game
+from GameSys import *
 import UI
 import os
+import sys
+sys.path.append("SCD0/GameSys")
+from Kernel import Game
 
 discription = """
 距离年终绩效考核还剩7天
